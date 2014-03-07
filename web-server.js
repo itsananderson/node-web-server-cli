@@ -195,7 +195,7 @@ StaticServlet.prototype.sendDirectory_ = function(req, res, path) {
   }
   fs.readdir(path, function(err, files) {
     if (err)
-      return self.sendError_(req, res, error);
+      return self.sendError_(req, res, err);
 
     if (!files.length)
       return self.writeDirectoryIndex_(req, res, path, []);
