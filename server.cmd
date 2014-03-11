@@ -1,2 +1,3 @@
 @echo off
-node %USERPROFILE%/web-server/web-server.js
+
+node %~dp0/web-server.js
