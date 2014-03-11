@@ -13,7 +13,7 @@ Tested in CMD, PowerShell, and Git Bash
 License
 -------
 
-The MIT License [MIT](LICENSE)
+The MIT License (MIT)
 
 Copyright (c) 2014 Will Anderson
 
