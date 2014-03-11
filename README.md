@@ -1,7 +1,7 @@
-web-server
+Web Server
 ==========
 
-Basic static Node web server based on the one built into angular-seed
+Basic static Node web server based on the one built into [angular-seed](https://github.com/angular/angular-seed)
 
 Aliases
 -------
