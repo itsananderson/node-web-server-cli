@@ -1,0 +1,3 @@
+#!/bin/bash
+
+node ~/web-server/web-server.js
