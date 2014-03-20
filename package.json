@@ -1,8 +1,7 @@
 {
   "name": "web-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Basic static Node web server based on the one built into angular-seed",
-  "main": "web-server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,11 +12,20 @@
   "keywords": [
     "server"
   ],
+  "bin": {
+    "web-server": "bin/server"
+  },
+  "preferGlobal": true,
   "author": "Will Anderson",
   "license": "MIT",
   "readmeFilename": "README.md",
   "gitHead": "49a205f29f57fe029e376bc1b0941218bb879ad3",
   "bugs": {
     "url": "https://github.com/itsananderson/web-server/issues"
+  },
+  "dependencies": {
+    "commander": "^2.1.0",
+    "resolve": "^0.6.1",
+    "findup-sync": "^0.1.3"
   }
 }
