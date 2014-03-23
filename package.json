@@ -13,7 +13,7 @@
     "server"
   ],
   "bin": {
-    "web-server": "bin/server"
+    "web-server": "bin/server.js"
   },
   "preferGlobal": true,
   "author": "Will Anderson",
