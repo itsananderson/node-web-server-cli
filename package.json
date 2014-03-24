@@ -24,6 +24,7 @@
         "url": "https://github.com/itsananderson/web-server/issues"
     },
     "dependencies": {
-        "commander": "2.1.x"
+        "commander": "2.1.x",
+        "express" : "3.5.x"
     }
 }
