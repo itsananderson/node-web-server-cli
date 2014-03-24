@@ -1,6 +1,6 @@
 {
     "name": "web-server",
-    "version": "1.0.1",
+    "version": "0.1.0",
     "description": "Basic static Node web server based on the one built into angular-seed",
     "scripts": {
         "start": "node bin/server.js",
