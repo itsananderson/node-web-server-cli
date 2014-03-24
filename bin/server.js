@@ -5,9 +5,9 @@
 var program = require('commander');
 
 program
-  .version('1.0.1')
-  .option('-p, --port [port]', 'Server Port (Defaults to 8000)')
-  .parse(process.argv);
+    .version('1.0.1')
+    .option('-p, --port [port]', 'Server Port (Defaults to 8000)')
+    .parse(process.argv);
 
 process.title = 'web-server';
 

@@ -1,29 +1,29 @@
 {
-  "name": "web-server",
-  "version": "1.0.1",
-  "description": "Basic static Node web server based on the one built into angular-seed",
-  "scripts": {
-    "start": "node bin/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/itsananderson/web-server.git"
-  },
-  "keywords": [
-    "server"
-  ],
-  "bin": {
-    "web-server": "./bin/server.js"
-  },
-  "preferGlobal": true,
-  "author": "Will Anderson",
-  "license": "MIT",
-  "readmeFilename": "README.md",
-  "bugs": {
-    "url": "https://github.com/itsananderson/web-server/issues"
-  },
-  "dependencies": {
-    "commander": "^2.1.0"
-  }
+    "name": "web-server",
+    "version": "1.0.1",
+    "description": "Basic static Node web server based on the one built into angular-seed",
+    "scripts": {
+        "start": "node bin/server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/itsananderson/web-server.git"
+    },
+    "keywords": [
+        "server"
+    ],
+    "bin": {
+        "web-server": "./bin/server.js"
+    },
+    "preferGlobal": true,
+    "author": "Will Anderson",
+    "license": "MIT",
+    "readmeFilename": "README.md",
+    "bugs": {
+        "url": "https://github.com/itsananderson/web-server/issues"
+    },
+    "dependencies": {
+        "commander": "^2.1.0"
+    }
 }
