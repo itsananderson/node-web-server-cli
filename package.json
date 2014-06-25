@@ -1,6 +1,6 @@
 {
     "name": "web-server-cli",
-    "version": "0.3.1",
+    "version": "0.3.2",
     "description": "Basic CLI utility for launching an Express static file server from any folder",
     "scripts": {
         "start": "node ./bin/web-server-cli.js",
