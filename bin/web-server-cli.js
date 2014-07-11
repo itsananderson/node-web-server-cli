@@ -14,4 +14,4 @@ program
 
 process.title = 'web-server';
 
-require('../lib/web-server')(program.port || 8000, program.root || './', program.index || 'index.html');
+require('../lib/web-server')(program.port || process.env.PORT || 8000, program.root || './', program.index || 'index.html');

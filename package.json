@@ -1,7 +1,7 @@
 {
   "name": "web-server-cli",
   "version": "0.3.3",
-  "description": "Basic CLI utility for launching an Express static file server from any folder",
+  "description": "Basic CLI utility for launching a static file server from any folder",
   "scripts": {
     "start": "node ./bin/web-server-cli.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -24,7 +24,9 @@
     "url": "https://github.com/itsananderson/node-web-server-cli/issues"
   },
   "dependencies": {
-    "commander": "2.1.x",
-    "express" : "3.5.x"
+    "commander": "^2.2.0",
+    "connect": "^3.0.2",
+    "serve-index": "^1.1.4",
+    "serve-static": "^1.3.1"
   }
 }
