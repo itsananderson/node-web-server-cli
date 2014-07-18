@@ -1,6 +1,6 @@
 {
-    "name": "web-server",
-    "version": "0.2.0",
+    "name": "web-server-cli",
+    "version": "0.3.0",
     "description": "Basic static Node web server based on the one built into angular-seed",
     "scripts": {
         "start": "node bin/server.js",
@@ -14,7 +14,7 @@
         "server"
     ],
     "bin": {
-        "web-server": "./bin/server.js"
+        "web-server": "./bin/web-server-cli.js"
     },
     "preferGlobal": true,
     "author": "Will Anderson",

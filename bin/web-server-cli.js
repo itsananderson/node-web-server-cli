@@ -2,10 +2,11 @@
 
 'use strict';
 
-var program = require('commander');
+var program = require('commander'),
+    pkg = require('../package.json');
 
 program
-    .version('0.2.0')
+    .version(pkg.version)
     .option('-p, --port [port]', 'Server Port (Defaults to 8000)')
     .option('-r, --root [root]', 'Server Root (Defaults to ./)')
     .option('-i, --index [index]', 'Index file (Defaults to index.html)')
