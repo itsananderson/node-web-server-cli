@@ -3,6 +3,52 @@ Web Server
 
 Basic static Node web server. Designed to be easy to just install and run.
 
+Installation
+------------
+
+Couldn't be more simple
+
+```
+npm install -g web-server-cli
+```
+
+Usage
+-----
+
+The simplest way to run web-server-cli is to just run "web-server" from the command line.
+
+```
+web-server
+```
+
+There are several options that you can configure.
+To see all available options, run `web-server --help`
+
+### -r, --root [root]
+
+Which directory to serve static files from. Defaults to the current directory.
+
+```
+web-server -d ./public
+```
+
+### -p, --port [port]
+
+Which port to listen on. Defaults to port 8000
+
+```
+web-server -p 3000
+```
+
+### -i, --index [index]
+
+Which file to treat as the directory index file.
+Defaults to "index.html"
+
+```
+web-server -i index.htm
+```
+
 License
 -------
 
