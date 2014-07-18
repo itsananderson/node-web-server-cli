@@ -3,7 +3,7 @@
     "version": "0.3.0",
     "description": "Basic static Node web server based on the one built into angular-seed",
     "scripts": {
-        "start": "node bin/server.js",
+        "start": "node ./bin/web-server-cli.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
