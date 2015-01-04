@@ -8,7 +8,7 @@ var program = require('commander'),
 program
     .version(pkg.version)
     .option('-p, --port [port]', 'Server Port (Defaults to 8000)')
-    .option('-r, --root [root]', 'Server Root (Defaults to ./)')
+    .option('-r, --root [root]', 'Server Root (Defaults to current directory)')
     .option('-i, --index [index]', 'Index file (Defaults to index.html)')
     .parse(process.argv);
 
