@@ -2,6 +2,7 @@
   "name": "web-server-cli",
   "version": "1.0.1",
   "description": "Basic CLI utility for launching a static file server from any folder",
+  "main": "lib/web-server.js",
   "scripts": {
     "start": "node ./bin/web-server-cli.js",
     "test": "echo \"Error: no test specified\" && exit 1"
