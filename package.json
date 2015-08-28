@@ -1,6 +1,6 @@
 {
   "name": "web-server-cli",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Basic CLI utility for launching a static file server from any folder",
   "main": "lib/web-server.js",
   "scripts": {
