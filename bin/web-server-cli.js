@@ -27,5 +27,8 @@ require('../lib/web-server')({
     port: program.port,
     rootPath: program.root,
     indexFiles: index,
-    showHidden: program.hidden
+    showHidden: program.hidden,
+    callback: function(server) {
+        console.log('Static server started at http://localhost:%d/', server.address().port);
+    }
 });
