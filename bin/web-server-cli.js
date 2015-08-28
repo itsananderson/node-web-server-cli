@@ -23,4 +23,9 @@ if (program.disableIndex) {
     index = program.index.split(",");
 }
 
-require('../lib/web-server')(program.port, program.root, index, program.hidden);
+require('../lib/web-server')({
+    port: program.port,
+    rootPath: program.root,
+    indexFiles: index,
+    showHidden: program.hidden
+});
