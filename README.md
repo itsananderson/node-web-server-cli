@@ -29,7 +29,7 @@ To see all available options, run `web-server --help`
 Which directory to serve static files from. Defaults to the current directory.
 
 ```
-web-server -d ./public
+web-server -r ./public
 ```
 
 ### -p, --port [port]
